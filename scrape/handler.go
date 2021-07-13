@@ -10,7 +10,7 @@ import (
 )
 
 func Handler(ctx context.Context, e events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
-	lambdaio.Init(&e)
+	// lambdaio.Init(&e)
 
 	urls, err := lambdaio.GetPostData(&e)
 	if err != "" {
