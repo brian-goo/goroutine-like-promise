@@ -3,7 +3,7 @@
 - returns an slice of ordered results of scraped URLs of images
 - can be deployed as microservice of aws lambda behind aws api gateway
 
-```bash
+```go
 // to test locally
 package main
 
@@ -28,7 +28,7 @@ func main() {
 }
 ```
 
-```bash
+```go
 // to use with aws lambda main func
 package main
 
